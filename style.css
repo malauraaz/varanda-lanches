@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f5f0;
+    color: #222;
+}
+
+/* Header com logo */
+header {
+    background: linear-gradient(90deg, #ffd700, #ff8c00);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+header .logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+header nav a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+header nav a:hover {
+    color: #222;
+}
+
+/* Seções */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.produto {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Formulário Cardápio */
+#adicionarProduto, #pagRetirada {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#adicionarProduto select, #adicionarProduto input, #pagRetirada select {
+    padding: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ffd700;
+    color: #222;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    color: #ffd700;
+}
